@@ -1,0 +1,11 @@
+version: '3.0'
+
+services:
+  jenkins:
+    container_name: jenkins
+    image: jenkins:2.60.3
+    ports:
+      - 8080:8080
+    restart: always
+    volumes:
+      - ~/.docker_db_data/jenkins:/var/jenkins_home
