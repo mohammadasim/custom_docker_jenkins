@@ -22,3 +22,9 @@ RUN cd Python-3.8.0 && ./configure --enable-optimizations && \
 
 # Drop back to jenkins user
 USER jenkins
+
+# Copy plugins.txt
+COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
+
+# Install the plugins
+RUN jenkins-plugin-cli -f /usr/share/jenkins/ref/plugins.txt
