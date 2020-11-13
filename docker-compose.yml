@@ -3,7 +3,7 @@ version: '3.0'
 services:
   jenkins:
     container_name: jenkins
-    image: my_custom_jenkins:2.60.3
+    image: my_custom_jenkins:lts
     ports:
       - 8080:8080
     restart: always
