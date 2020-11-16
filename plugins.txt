@@ -77,7 +77,7 @@ pipeline-graph-analysis:latest
 pipeline-input-step:latest
 pipeline-milestone-step:latest
 pipeline-model-api:1.7.2
-pipeline-model-declarative-agent:1.7.2
+
 pipeline-model-definition:1.7.2
 pipeline-githubnotify-step:latest
 pipeline-github-lib:latest
@@ -89,7 +89,7 @@ pipeline-utility-steps:latest
 plain-credentials:latest
 pubsub-light:latest
 scm-api:latest
-script-security:latest
+script-security:1.75
 sse-gateway:latest
 ssh-agent:latest
 ssh-credentials:latest
@@ -116,3 +116,4 @@ workflow-step-api:latest
 workflow-support:latest
 ws-cleanup:latest
 xvfb:latest
+jdk-tool:1.4
